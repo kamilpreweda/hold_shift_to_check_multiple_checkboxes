@@ -32,11 +32,7 @@ html {
   }
 }
 
-label {
-  width: 100%;
-}
-
-input:checked+label {
+input:checked+p {
   background: #f9f9f9;
   text-decoration: line-through;
   border-radius: 5px;
